@@ -1,0 +1,38 @@
+@media screen and (min-width: 650px) {
+    header .container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .hero {
+        height: 100vh;
+        padding: 350px 0 250px;
+    }
+
+    article .blog {
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    .motto .placeholder-image {
+        width: 50%;
+        height: 500px;
+    }
+
+    .motto .content {
+        width: 50%;
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    article .blog-cards {
+        justify-content: space-between;
+    }
+
+    article .blog {
+        width: 30%;
+        margin: 0px;
+    }
+}
